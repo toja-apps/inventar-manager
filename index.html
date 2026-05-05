@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Inventar Manager – Datenschutz</title>
+    <style>
+        body {
+            font-family: -apple-system, system-ui, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 16px;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            margin-top: 24px;
+        }
+        .lang-switch {
+            margin-bottom: 20px;
+        }
+    </style>
+    <script>
+        function switchLang(lang) {
+            document.getElementById('de').style.display = lang === 'de' ? 'block' : 'none';
+            document.getElementById('en').style.display = lang === 'en' ? 'block' : 'none';
+        }
+    </script>
+</head>
+<body>
+
+<div class="lang-switch">
+    <button onclick="switchLang('de')">Deutsch</button>
+    <button onclick="switchLang('en')">English</button>
+</div>
+
+<div id="de">
+<h1>Datenschutzerklärung – Inventar Manager</h1>
+
+<p>Diese App dient der persönlichen Verwaltung von Inventaren und Informationen.</p>
+
+<h2>Datenspeicherung</h2>
+<p>Alle Daten werden ausschließlich lokal auf dem Gerät gespeichert. Es erfolgt keine Speicherung auf Servern des Entwicklers.</p>
+
+<h2>Zugriff auf Daten</h2>
+<p>Der Entwickler hat keinen Zugriff auf die in der App gespeicherten Inhalte.</p>
+
+<h2>iCloud-Synchronisation</h2>
+<p>Sofern aktiviert, erfolgt die Synchronisation ausschließlich über Apple iCloud gemäß deren Datenschutzbestimmungen.</p>
+
+<h2>Nutzerinhalte</h2>
+<p>Die Inhalte werden ausschließlich vom Nutzer erstellt und verwaltet. Der Entwickler übernimmt keine Verantwortung für deren Richtigkeit, Vollständigkeit oder Rechtmäßigkeit.</p>
+
+<h2>Abonnements</h2>
+<p>Die App bietet optionale Abonnements („Inventar Manager Pro“), die über Apple abgewickelt werden.</p>
+
+<h2>Datensicherung</h2>
+<p>Der Nutzer ist selbst für die Sicherung seiner Daten verantwortlich.</p>
+</div>
+
+<div id="en" style="display:none;">
+<h1>Privacy Policy – Inventory Manager</h1>
+
+<p>This app is designed for personal inventory management.</p>
+
+<h2>Data Storage</h2>
+<p>All data is stored locally on the user’s device. No data is stored on developer-operated servers.</p>
+
+<h2>Data Access</h2>
+<p>The developer has no access to the data stored within the app.</p>
+
+<h2>iCloud Sync</h2>
+<p>If enabled, data is synchronized via Apple iCloud in accordance with Apple’s privacy policies.</p>
+
+<h2>User Content</h2>
+<p>All content is created and managed by the user. The developer assumes no responsibility for its accuracy, completeness, or legality.</p>
+
+<h2>Subscriptions</h2>
+<p>The app offers optional subscriptions ("Inventory Manager Pro") handled by Apple.</p>
+
+<h2>Backup</h2>
+<p>Users are responsible for backing up their data.</p>
+</div>
+
+</body>
+</html>

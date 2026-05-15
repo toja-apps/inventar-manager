@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FAQ – Inventar Manager</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      max-width: 760px;
+      margin: 48px auto;
+      padding: 0 24px;
+      line-height: 1.6;
+      color: #111;
+    }
+    h1 { font-size: 34px; }
+    h2 { margin-top: 32px; }
+    h3 { margin-top: 24px; font-size: 22px; }
+    a { color: #0a66cc; }
+    .lang { margin-bottom: 28px; }
+    .lang a {
+      display: inline-block;
+      margin-right: 8px;
+      padding: 2px 8px;
+      border-radius: 10px;
+      background: #eee;
+      color: #111;
+      text-decoration: none;
+      font-size: 13px;
+    }
+    section { margin-bottom: 56px; }
+  </style>
+</head>
+<body>
+  <div class="lang">
+    <a href="#de">Deutsch</a>
+    <a href="#en">English</a>
+  </div>
+
+  <section id="de">
+    <h1>FAQ – Inventar Manager</h1>
+
+    <p>Hier findest du kurze Hinweise zur Nutzung von Inventar Manager.</p>
+
+    <h2>Wie ist die App aufgebaut?</h2>
+    <p>Die App hat zwei Hauptbereiche: den Arbeitsbereich und die Einstellungen.</p>
+    <p>Im Arbeitsbereich verwaltest du deine Inventare und Artikel. In den Einstellungen legst du grundlegende Dinge fest, zum Beispiel Zusatzfelder, Synchronisierung sowie Backup & Restore.</p>
+
+    <h2>Wie starte ich am besten?</h2>
+    <p>Für den Einstieg ist diese Reihenfolge sinnvoll:</p>
+    <p>1. Inventar anlegen<br>
+       2. Artikel anlegen<br>
+       3. Bei Bedarf Zusatzfelder anlegen<br>
+       4. Zusatzfelder einem Inventar zuordnen<br>
+       5. Optional Synchronisierung oder Backup nutzen</p>
+
+    <h2>Was ist ein Inventar?</h2>
+    <p>Ein Inventar ist ein Bereich für zusammengehörige Artikel, zum Beispiel Haushalt, Werkstatt, Büro oder Sammlung.</p>
+
+    <h2>Was ist ein Artikel?</h2>
+    <p>Ein Artikel ist ein einzelner Eintrag innerhalb eines Inventars. Ein Artikel kann Standardangaben, Notizen, Fotos, Dokumente und Zusatzfelder enthalten.</p>
+
+    <h2>Was sind Zusatzfelder?</h2>
+    <p>Zusatzfelder erweitern deine Artikel um eigene Angaben, zum Beispiel Hersteller, Zustand, Kaufdatum, Seriennummer oder Bewertung.</p>
+    <p>Zusatzfelder werden zuerst angelegt und danach einem Inventar zugeordnet. Erst dann erscheinen sie bei den Artikeln dieses Inventars.</p>
+
+    <h2>Wie funktioniert die Synchronisierung?</h2>
+    <p>Mit iCloud-Sync kannst du deine Daten zwischen deinen eigenen Geräten abgleichen.</p>
+    <p>Die Synchronisierung ist optional, muss aktiviert werden und kann beim ersten Abgleich etwas mehr Zeit brauchen.</p>
+
+    <h2>Wie funktionieren Backup & Restore?</h2>
+    <p>Backups können intern in der App oder extern auf einem anderen Speicherort erstellt werden.</p>
+    <p>Über Restore kannst du einen gesicherten Stand später wiederherstellen.</p>
+
+    <h2>Häufige Fragen</h2>
+
+    <h3>Ich habe ein neues Gerät eingerichtet, sehe aber noch keine Daten</h3>
+    <p>Prüfe zuerst, ob die Synchronisierung aktiviert ist. Nach dem ersten Start oder nach dem Einschalten von Sync kann es einen Moment dauern, bis vorhandene Daten erscheinen.</p>
+
+    <h3>Warum dauert der erste Sync länger?</h3>
+    <p>Beim ersten Sync wird ein vorhandener Datenbestand zunächst vollständig abgeglichen. Das kann bei vielen Artikeln, Fotos oder Dokumenten etwas dauern.</p>
+
+    <h3>Warum sehe ich meine Zusatzfelder nicht bei jedem Artikel?</h3>
+    <p>Zusatzfelder erscheinen nur in Inventaren, denen sie zugeordnet wurden.</p>
+
+    <h3>Warum sind nach einer Neuinstallation nicht sofort alle Daten sichtbar?</h3>
+    <p>Auf einem neuen Gerät müssen Pro-Status und Synchronisierung zunächst korrekt geladen und aktiviert werden. Danach kann der erste Abgleich etwas Zeit brauchen.</p>
+  </section>
+
+  <section id="en">
+    <h1>FAQ – Inventar Manager</h1>
+
+    <p>Here you can find short usage notes for Inventar Manager.</p>
+
+    <h2>How is the app structured?</h2>
+    <p>The app has two main areas: the workspace and settings.</p>
+    <p>In the workspace, you manage your inventories and items. In settings, you configure general things such as custom fields, sync, and backup & restore.</p>
+
+    <h2>How should I get started?</h2>
+    <p>This order is a good starting point:</p>
+    <p>1. Create an inventory<br>
+       2. Add items<br>
+       3. Create custom fields if needed<br>
+       4. Assign custom fields to an inventory<br>
+       5. Optionally use sync or backup</p>
+
+    <h2>What is an inventory?</h2>
+    <p>An inventory is a group of related items, for example household, workshop, office, or collection.</p>
+
+    <h2>What is an item?</h2>
+    <p>An item is a single entry within an inventory. It can contain standard information, notes, photos, documents, and custom fields.</p>
+
+    <h2>What are custom fields?</h2>
+    <p>Custom fields extend your items with your own information, such as manufacturer, condition, purchase date, serial number, or rating.</p>
+    <p>Custom fields are created first and then assigned to an inventory. They only appear in items of inventories where they are assigned.</p>
+
+    <h2>How does sync work?</h2>
+    <p>iCloud Sync lets you keep your data in sync across your own devices.</p>
+    <p>Sync is optional, must be enabled, and the first sync may take a little longer.</p>
+
+    <h2>How do backup & restore work?</h2>
+    <p>Backups can be created internally in the app or externally on another storage location.</p>
+    <p>You can later restore a saved state using restore.</p>
+
+    <h2>Frequently asked questions</h2>
+
+    <h3>I set up a new device but do not see any data yet</h3>
+    <p>First make sure sync is enabled. After first launch or after turning sync on, it may take a short moment until existing data appears.</p>
+
+    <h3>Why does the first sync take longer?</h3>
+    <p>During the first sync, an existing data set is transferred completely. This can take a little longer if many items, photos, or documents are included.</p>
+
+    <h3>Why do I not see my custom fields everywhere?</h3>
+    <p>Custom fields only appear in inventories to which they have been assigned.</p>
+
+    <h3>Why are not all data visible immediately after reinstalling?</h3>
+    <p>On a new device, Pro status and sync must first be loaded and activated correctly. After that, the first sync may take a little time.</p>
+  </section>
+</body>
+</html>
